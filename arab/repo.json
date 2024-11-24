@@ -1,0 +1,8 @@
+{
+  "name": "Arabic IASAH Repo",
+  "description": "Arabic Repo done by IASAH",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://github.com/IASAH/CloudStream/new/main/arab"
+  ]
+}

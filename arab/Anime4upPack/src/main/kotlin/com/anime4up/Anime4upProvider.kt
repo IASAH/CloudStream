@@ -20,7 +20,7 @@ class WitAnime : Anime4up() {
 }
 open class Anime4up : MainAPI() {
     override var lang = "ar"
-    override var mainUrl = "https://anime4up.tv"
+    override var mainUrl = "https://arime4up.fun"
     override var name = "Anime4up"
     override val usesWebView = false
     override val hasMainPage = true

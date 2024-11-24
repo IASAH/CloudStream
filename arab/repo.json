@@ -2,11 +2,11 @@
   {
     "name": "Akwam",
     "description": "A plugin for the Anime4up source.",
-    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/blob/main/arab/AkwamProvider/src/main/kotlin/com/akwam/AkwamPlugin.kt"
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/AkwamProvider/src/main/kotlin/com/akwam/AkwamPlugin.kt"
   },
   {
     "name": "Anime4Up",
     "description": "A plugin for the WitAnime source.",
-    "url": "https://raw.githubusercontent.com/arab/Anime4upPack/src/main/kotlin/com/anime4up/Anime4upProvider.kt"
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/Anime4upPack/src/main/kotlin/com/anime4up/Anime4upProvider.kt"
   }
 ]

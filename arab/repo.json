@@ -1,8 +1,12 @@
-{
-  "name": "Arabic IASAH Repo",
-  "description": "Arabic Repo done by IASAH",
-  "manifestVersion": 1,
-  "pluginLists": [
-    "https://github.com/IASAH/CloudStream/new/main/arab"
-  ]
-}
+[
+  {
+    "name": "Akwam",
+    "description": "A plugin for the Anime4up source.",
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/blob/main/arab/AkwamProvider/src/main/kotlin/com/akwam/AkwamPlugin.kt"
+  },
+  {
+    "name": "Anime4Up",
+    "description": "A plugin for the WitAnime source.",
+    "url": "https://raw.githubusercontent.com/arab/Anime4upPack/src/main/kotlin/com/anime4up/Anime4upProvider.kt"
+  }
+]

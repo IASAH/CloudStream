@@ -10,7 +10,7 @@ import com.lagradost.nicehttp.Requests
 
 class Animeiat : MainAPI() {
     override var lang = "ar"
-    override var mainUrl = "https://api.animeiat.co/v1"
+    override var mainUrl = "https://www.animeiat.tv/"
     val pageUrl = "https://www.animeiat.tv"
     override var name = "Animeiat"
     override val usesWebView = false

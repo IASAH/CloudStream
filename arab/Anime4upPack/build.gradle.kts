@@ -2,7 +2,7 @@ version = 1
 
 cloudstream {
     description = "This pack contains Anime4up and Witanime"
-    authors = listOf( "ImZaw" )
+    authors = listOf( "IASAH" )
 
 	language = "ar"
 	

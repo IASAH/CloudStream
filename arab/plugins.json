@@ -2,26 +2,26 @@
   {
     "name": "Akwam",
     "version": "1.0.0",
-    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/AkwamProvider/src/main/kotlin/com/akwam/AkwamPlugin.kt"
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AkwamProvider/src/main/kotlin/com/akwam/AkwamPlugin.kt"
   },
   {
     "name": "Anime4up",
     "version": "1.0.0",
-    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/Anime4upPack/src/main/kotlin/com/anime4up/Anime4upPlugin.kt"
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/Anime4upPack/src/main/kotlin/com/anime4up/Anime4upPlugin.kt"
   },
   {
     "name": "AnimeBlkom",
     "version": "1.0.0",
-    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/AnimeBlkomProvider/src/main/kotlin/com/animeblkom/AnimeBlkomPlugin.kt"
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AnimeBlkomProvider/src/main/kotlin/com/animeblkom/AnimeBlkomPlugin.kt"
   },
   {
     "name": "Animeiat",
     "version": "1.0.0",
-    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/AnimeBlkomProvider/src/main/arab/AnimeiatProvider/src/main/kotlin/com/animeiat/AnimeiatPlugin.kt"
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AnimeiatProvider/src/main/kotlin/com/animeiat/AnimeiatPlugin.kt"
   },
   {
     "name": "ArabSeed",
     "version": "1.0.0",
-    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/AnimeBlkomProvider/src/main/arab/ArabSeedProvider/src/main/kotlin/com/arabseed/ArabSeedPlugin.kt"
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/ArabSeedProvider/src/main/kotlin/com/arabseed/ArabSeedPlugin.kt"
   }
 ]

@@ -1,0 +1,111 @@
+// Plugin Name: AkwamPlugin
+// Version: 1.0
+// Author: IASAH
+// Description: A plugin for Akwam that supports TV series, movies, anime, and cartoons.
+// Language: ar
+// Status: 1
+// Icon URL: https://www.google.com/s2/favicons?domain=akwam.to&sz=%size%
+
+using System;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using System.Linq;
+using CloudStream; // Hypothetical namespace for CloudStream
+using Android.Content;
+
+namespace com.akwam
+{
+    public class AkwamPlugin : Plugin
+    {
+        public override void Load(Context context)
+        {
+            RegisterMainAPI(new Akwam());
+        }
+    }
+
+    public class Akwam : MainAPI
+    {
+        public override string lang => "ar";
+        public override string mainUrl => "https://a.akw.me/";
+        public override string name => "Akwam";
+        public override bool usesWebView => false;
+        public override bool hasMainPage => true;
+        public override HashSet<TvType> supportedTypes => new HashSet<TvType>
+        {
+            TvType.TvSeries,
+            TvType.Movie,
+            TvType.Anime,
+            TvType.Cartoon
+        };
+
+        private SearchResponse ToSearchResponse(HtmlNode element)
+        {
+            var url = element.SelectSingleNode("a[@class='box']").GetAttributeValue("href", null);
+            if (url.Contains("/games/") || url.Contains("/programs/")) return null;
+
+            var poster = element.SelectSingleNode("picture/img");
+            var title = poster.GetAttributeValue("alt", null);
+            var posterUrl = poster.GetAttributeValue("data-src", null);
+            var year = int.TryParse(element.SelectSingleNode(".badge-secondary")?.InnerText, out var y) ? (int?)y : null;
+
+            return new MovieSearchResponse(title, url, this.name, TvType.TvSeries, posterUrl, year, null);
+        }
+
+        public override MainPageResponse mainPage => new MainPageResponse
+        {
+            new KeyValuePair<string, string>("$mainUrl/movies?page=", "Movies"),
+            new KeyValuePair<string, string>("$mainUrl/series?page=", "Series"),
+            new KeyValuePair<string, string>("$mainUrl/shows?page=", "Shows")
+        };
+
+        public override async Task<HomePageResponse> getMainPage(int page, MainPageRequest request)
+        {
+            var doc = await app.get(request.data + page);
+            var list = doc.DocumentNode.SelectNodes("div[@class='col-lg-auto col-md-4 col-6 mb-12']")
+                .Select(ToSearchResponse)
+                .Where(response => response != null)
+                .ToList();
+
+            return new HomePageResponse(request.name, list);
+        }
+
+        public override async Task<List<SearchResponse>> search(string query)
+        {
+            var url = $"{mainUrl}/search?q={query}";
+            var doc = await app.get(url);
+            return doc.DocumentNode.SelectNodes("div[@class='col-lg-auto']")
+                .Select(ToSearchResponse)
+                .Where(response => response != null)
+                .ToList();
+        }
+
+        private int? GetIntFromText(string text)
+        {
+            var match = Regex.Match(text, @"\d+");
+            return match.Success ? (int?)int.Parse(match.Value) : null;
+        }
+
+        private Episode ToEpisode(HtmlNode element)
+        {
+            var a = element.SelectSingleNode("a[@class='text-white']");
+            var url = a.GetAttributeValue("href", null);
+            var title = a.InnerText;
+            var thumbUrl = element.SelectSingleNode("picture/img").GetAttributeValue("src", null);
+            var date = element.SelectSingleNode("p.entry-date").InnerText;
+
+            return new Episode
+            {
+                name = title,
+                episode = GetIntFromText(title),
+                posterUrl = thumbUrl,
+                date = date
+            };
+        }
+
+        public override async Task<LoadResponse> load(string url)
+        {
+            var doc = await app.get(url);
+            var isMovie = doc.DocumentNode.SelectSingleNode("#downloads/h2/span") != null;
+            var title = doc.DocumentNode.SelectSingleNode("h1.entry-title").InnerText;
+            var posterUrl = doc.DocumentNode.SelectSingleNode("picture/img").GetAttributeValue("src", null);
+           

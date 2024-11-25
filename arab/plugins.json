@@ -16,7 +16,7 @@
         "version": 1,
         "internalName": "AkwamPlugin",
         "description": "Watch Anime content from Akwam",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AkwamProvider/src/main/kotlin/com/akwam/AkwamPlugin.kt",
+        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AkwamProvider/AkwamPlugin.cs3",
         "name": "AkwamPlugin"
     },
     {

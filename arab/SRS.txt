@@ -1,0 +1,11 @@
+https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/AkwamProvider/src/main/kotlin/com/akwam/AkwamPlugin.kt
+https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/Anime4upPack/src/main/kotlin/com/anime4up/Anime4upPlugin.kt
+https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/AnimeBlkomProvider/src/main/kotlin/com/animeblkom/AnimeBlkomPlugin.kt
+https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/AnimeBlkomProvider/src/main/arab/AnimeiatProvider/src/main/kotlin/com/animeiat/AnimeiatPlugin.kt
+https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/AnimeBlkomProvider/src/main/arab/ArabSeedProvider/src/main/kotlin/com/arabseed/ArabSeedPlugin.kt
+
+
+https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/plugins.json
+
+
+https://raw.githubusercontent.com/IASAH/CloudStream/main/arab/repo.json

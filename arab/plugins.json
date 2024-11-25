@@ -99,4 +99,25 @@
         "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/ArabSeedProvider/src/main/kotlin/com/arabseed/ArabSeedPlugin.kt",
         "name": "ArabSeedPlugin"
     }
+,
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=Shahid4u.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/IASAH/CloudStream/arab",
+        "fileSize": 726,
+        "status": 1,
+        "authors": [
+            "IASAH"
+        ],
+        "tvTypes": [
+            "Anime", 
+            "OVA", 
+            "AnimeMovie"
+        ],
+        "version": 1,
+        "internalName": "Shahid4uPlugin",
+        "description": "Watch Anime content from ArabSeed",
+        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/Shahid4uProvider/src/main/kotlin/com/shahid4u/Shahid4uProvider.kt",
+        "name": "ArabSeedPlugin"
+    }
 ]

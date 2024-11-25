@@ -9,7 +9,7 @@ import com.lagradost.cloudstream3.utils.loadExtractor
 import org.jsoup.nodes.Element
 
 class AnimeBlkom : MainAPI() {
-    override var mainUrl = "https://animeblkom.net"
+    override var mainUrl = "http://103.155.92.42"
     override var name = "AnimeBlkom"
     override var lang = "ar"
     override val hasMainPage = true

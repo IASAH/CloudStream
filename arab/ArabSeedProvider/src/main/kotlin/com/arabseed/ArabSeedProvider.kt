@@ -7,7 +7,7 @@ import org.jsoup.nodes.Element
 
 class ArabSeed : MainAPI() {
     override var lang = "ar"
-    override var mainUrl = "https://e.arabseed.ink"
+    override var mainUrl = "https://asd.quest/main"
     override var name = "ArabSeed"
     override val usesWebView = false
     override val hasMainPage = true

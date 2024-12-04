@@ -15,7 +15,7 @@
         "version": 1,
         "internalName": "AkwamPlugin",
         "description": "Watch Anime content from Akwam",
-        "url": "https://github.com/IASAH/CloudStream/raw/refs/heads/main/arab/AkwamProvider/AkwamProvider.cs3",
+        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AkwamProvider/AkwamProvider.cs3",
         "name": "AkwamPlugin"
     },
     {
@@ -95,7 +95,7 @@
         "version": 1,
         "internalName": "ArabSeedPlugin",
         "description": "Watch Anime content from ArabSeed",
-        "url": "https://github.com/IASAH/CloudStream/raw/refs/heads/main/arab/ArabSeedProvider/ArabSeedProvider.cs3",
+        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/ArabSeedProvider/ArabSeedProvider.cs3",
         "name": "ArabSeedPlugin"
     }
 ,

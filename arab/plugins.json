@@ -16,7 +16,7 @@
         "version": 1,
         "internalName": "AkwamPlugin",
         "description": "Watch Anime content from Akwam",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AkwamProvider/AkwamPlugin.cs3",
+        "url": "https://github.com/IASAH/CloudStream/raw/refs/heads/main/arab/AkwamProvider/AkwamProvider.cs3",
         "name": "AkwamPlugin"
     },
     {
@@ -96,7 +96,7 @@
         "version": 1,
         "internalName": "ArabSeedPlugin",
         "description": "Watch Anime content from ArabSeed",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/ArabSeedProvider/src/main/kotlin/com/arabseed/ArabSeedPlugin.kt",
+        "url": "https://github.com/IASAH/CloudStream/raw/refs/heads/main/arab/ArabSeedProvider/ArabSeedProvider.cs3",
         "name": "ArabSeedPlugin"
     }
 ,
@@ -119,5 +119,19 @@
         "description": "Watch Anime content from ArabSeed",
         "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/Shahid4uProvider/src/main/kotlin/com/shahid4u/Shahid4uProvider.kt",
         "name": "ArabSeedPlugin"
+        
+        "version": 1,
+        "internalName": "Shahid4uPlugin",
+        "description": "Watch Anime content from ArabSeed",
+        "url": "https://github.com/IASAH/CloudStream/raw/refs/heads/main/arab/EgyBestProvider/EgyBestProvider.cs3",
+        "name": "ArabSeedPlugin"
+        
+        ],
+        "tvTypes": [
+            "Anime", 
+            "OVA", 
+            "AnimeMovie"
+        ],
+
     }
 ]

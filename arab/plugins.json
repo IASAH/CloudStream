@@ -1,135 +1,59 @@
-[{
-        "iconUrl": "https://www.google.com/s2/favicons?domain=akwam.net&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/IASAH/CloudStream/arab",
-        "fileSize": 726,
-        "status": 1,
-        "authors": [
-            "IASAH"
-        ],
-        "tvTypes": [
-            "Anime", 
-            "OVA", 
-            "AnimeMovie"
-        ],
-        "version": 1,
-        "internalName": "AkwamPlugin",
-        "description": "Watch Anime content from Akwam",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AkwamProvider/AkwamProvider.cs3",
-        "name": "AkwamPlugin"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=anime4up.fun&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/IASAH/CloudStream/arab",
-        "fileSize": 726,
-        "status": 1,
-        "authors": [
-            "IASAH"
-        ],
-        "tvTypes": [
-            "Anime", 
-            "OVA", 
-            "AnimeMovie"
-        ],
-        "version": 1,
-        "internalName": "Anime4upPlugin",
-        "description": "Watch Anime content from Anime4up",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/Anime4upPack/src/main/kotlin/com/anime4up/Anime4upPlugin.kt",
-        "name": "Anime4upPlugin"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=animeblkom.com&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/IASAH/CloudStream/arab",
-        "fileSize": 726,
-        "status": 1,
-        "authors": [
-            "IASAH"
-        ],
-        "tvTypes": [
-            "Anime", 
-            "OVA", 
-            "AnimeMovie"
-        ],
-        "version": 1,
-        "internalName": "AnimeBlkomPlugin",
-        "description": "Watch Anime content from AnimeBlkom",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AnimeBlkomProvider/src/main/kotlin/com/animeblkom/AnimeBlkomPlugin.kt",
-        "name": "AnimeBlkomPlugin"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=animeiat.com&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/IASAH/CloudStream/arab",
-        "fileSize": 726,
-        "status": 1,
-        "authors": [
-            "IASAH"
-        ],
-        "tvTypes": [
-            "Anime", 
-            "OVA", 
-            "AnimeMovie"
-        ],
-        "version": 1,
-        "internalName": "AnimeiatPlugin",
-        "description": "Watch Anime content from Animeiat",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AnimeiatProvider/src/main/kotlin/com/animeiat/AnimeiatPlugin.kt",
-        "name": "AnimeiatPlugin"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=arabseed.com&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/IASAH/CloudStream/arab",
-        "fileSize": 726,
-        "status": 1,
-        "authors": [
-            "IASAH"
-        ],
-        "tvTypes": [
-            "Anime", 
-            "OVA", 
-            "AnimeMovie"
-        ],
-        "version": 1,
-        "internalName": "ArabSeedPlugin",
-        "description": "Watch Anime content from ArabSeed",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/ArabSeedProvider/ArabSeedProvider.cs3",
-        "name": "ArabSeedPlugin"
-    }
-,
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=Shahid4u.com&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/IASAH/CloudStream/arab",
-        "fileSize": 726,
-        "status": 1,
-        "authors": 
-            "IASAH"
-    },
-    {
-        "tvTypes": [
-            "Anime", 
-            "OVA", 
-            "AnimeMovie"
-        ],
-        "version": 1,
-        "internalName": "Shahid4uPlugin",
-        "description": "Watch Anime content from ArabSeed",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/Shahid4uProvider/src/main/kotlin/com/shahid4u/Shahid4uProvider.kt",
-        "name": "ArabSeedPlugin"
-    },
-    {
-    "tvTypes": [
-        "Anime", 
-        "OVA", 
-        "AnimeMovie"
+[{   
+    "iconUrl": "https://www.google.com/s2/favicons?domain=arabseed.ink&sz=%size%",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/IASAH/CloudStream/tree/main/arab",
+    "fileSize": 16392,
+    "status": 1,
+    "language": "ar",
+    "authors": [
+        "IASAH"
     ],
-        "version": 1,
+    "tvTypes": [
+        "TvSeries",
+        "Movie"
+    ],
+    "version": 16,
+    "internalName": "ArabSeedProvider",
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/ArabSeedProvider/ArabSeedProvider.cs3",
+    "name": "ArabSeedProvider"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=akwam.ink&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/IASAH/CloudStream/tree/main/arab",
+        "fileSize": 16392,
+        "status": 1,
+        "language": "ar",
+        "authors": [
+            "IASAH"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "version": 16,
+        "internalName": "AkwamProvider",
+        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AkwamProvider/AkwamProvider.cs3        ",
+        "name": "AkwamProvider"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=egybest.ink&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/IASAH/CloudStream/tree/main/arab",
+        "fileSize": 16392,
+        "status": 1,
+        "language": "ar",
+        "authors": [
+            "IASAH"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "version": 16,
         "internalName": "EgyBestProvider",
-        "description": "Watch Anime content from ArabSeed",
         "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/EgyBestProvider/EgyBestProvider.cs3",
-        "name": "EgyBest"
-    }
+        "name": "EgyBestProvider"   
+    },
+    
 ]

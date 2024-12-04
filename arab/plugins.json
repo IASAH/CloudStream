@@ -106,9 +106,10 @@
         "repositoryUrl": "https://github.com/IASAH/CloudStream/arab",
         "fileSize": 726,
         "status": 1,
-        "authors": [
+        "authors": 
             "IASAH"
-        ],
+    },
+    {
         "tvTypes": [
             "Anime", 
             "OVA", 
@@ -119,19 +120,17 @@
         "description": "Watch Anime content from ArabSeed",
         "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/Shahid4uProvider/src/main/kotlin/com/shahid4u/Shahid4uProvider.kt",
         "name": "ArabSeedPlugin"
-        
+    },
+    {
+    "tvTypes": [
+        "Anime", 
+        "OVA", 
+        "AnimeMovie"
+    ],
         "version": 1,
-        "internalName": "Shahid4uPlugin",
+        "internalName": "EgyBestProvider",
         "description": "Watch Anime content from ArabSeed",
         "url": "https://github.com/IASAH/CloudStream/raw/refs/heads/main/arab/EgyBestProvider/EgyBestProvider.cs3",
         "name": "ArabSeedPlugin"
-        
-        ],
-        "tvTypes": [
-            "Anime", 
-            "OVA", 
-            "AnimeMovie"
-        ],
-
     }
 ]

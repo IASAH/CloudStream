@@ -129,7 +129,7 @@
         "version": 1,
         "internalName": "EgyBestProvider",
         "description": "Watch Anime content from ArabSeed",
-        "url": "https://github.com/IASAH/CloudStream/raw/refs/heads/main/arab/EgyBestProvider/EgyBestProvider.cs3",
-        "name": "ArabSeedPlugin"
+        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/EgyBestProvider/EgyBestProvider.cs3",
+        "name": "EgyBest"
     }
 ]

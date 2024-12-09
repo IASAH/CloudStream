@@ -1,7 +1,7 @@
-[{   
+[{
     "iconUrl": "https://www.google.com/s2/favicons?domain=arabseed.ink&sz=%size%",
     "apiVersion": 1,
-    "repositoryUrl": "https://github.com/IASAH/CloudStream/tree/main/arab",
+    "repositoryUrl": "https://github.com/IASAH/CloudStream",
     "fileSize": 16392,
     "status": 1,
     "language": "ar",
@@ -16,44 +16,44 @@
     "internalName": "ArabSeedProvider",
     "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/ArabSeedProvider/ArabSeedProvider.cs3",
     "name": "ArabSeedProvider"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=akwam.ink&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/IASAH/CloudStream/tree/main/arab",
-        "fileSize": 16392,
-        "status": 1,
-        "language": "ar",
-        "authors": [
-            "IASAH"
-        ],
-        "tvTypes": [
-            "TvSeries",
-            "Movie"
-        ],
-        "version": 16,
-        "internalName": "AkwamProvider",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AkwamProvider/AkwamProvider.cs3        ",
-        "name": "AkwamProvider"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=egybest.ink&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/IASAH/CloudStream/tree/main/arab",
-        "fileSize": 16392,
-        "status": 1,
-        "language": "ar",
-        "authors": [
-            "IASAH"
-        ],
-        "tvTypes": [
-            "TvSeries",
-            "Movie"
-        ],
-        "version": 16,
-        "internalName": "EgyBestProvider",
-        "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/EgyBestProvider/EgyBestProvider.cs3",
-        "name": "EgyBestProvider"   
-    },
-    
+},
+{
+    "iconUrl": "https://www.google.com/s2/favicons?domain=tv.egydead.live&sz=%size%",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/IASAH/CloudStream",
+    "fileSize": 13531,
+    "status": 1,
+    "language": "ar",
+    "authors": [
+        "IASAH"
+    ],
+    "tvTypes": [
+        "TvSeries",
+        "Movie",
+        "Anime"
+    ],
+    "version": 4,
+    "internalName": "EgyBestProvider",
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/EgyBestProvider/EgyBestProvider.cs3",
+    "name": "EgyBestProvider"
+},
+{
+    "iconUrl": "https://www.google.com/s2/favicons?domain=tv.akwam.live&sz=%size%",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/IASAH/CloudStream",
+    "fileSize": 13531,
+    "status": 1,
+    "language": "ar",
+    "authors": [
+        "IASAH"
+    ],
+    "tvTypes": [
+        "TvSeries",
+        "Movie"
+    ],
+    "version": 4,
+    "internalName": "AkwamProvider",
+    "url": "https://raw.githubusercontent.com/IASAH/CloudStream/refs/heads/main/arab/AkwamProvider/AkwamProvider.cs3",
+    "name": "AkwamProvider"
+},
 ]
